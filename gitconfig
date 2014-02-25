@@ -1,0 +1,23 @@
+[user]
+	name = Valentina Manea
+	email = valentina.manea.m@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = true
+	editor = vim
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
+	smtpuser = valentina.manea.m@gmail.com
+[color]
+	ui = auto
